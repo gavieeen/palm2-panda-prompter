@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "create-vite": "^5.0.0",
     "netlify-cli": "^17.8.1"
   },
   "devDependencies": {
