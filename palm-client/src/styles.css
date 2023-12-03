@@ -1,0 +1,34 @@
+/* styles.css */
+
+.skadoosh-animation {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.explosion {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  /* Adjust the color as needed */
+  border-radius: 50%;
+  animation: explode 0.5s ease-in-out;
+  z-index: 1;
+}
+
+@keyframes explode {
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* Replace 'YourCoolFont' with the desired font name or font stack */
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  /* Apply the cool font to h1 elements */
+}
