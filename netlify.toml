@@ -1,3 +1,6 @@
 [build]
-command = "npm run build"
-publish = "/Users/gavinebenezer/Documents/CS-Projects/react-palm2"
+  command = "cd palm-client && npm run build"
+  publish = "palm-client/dist"
+
+[dev]
+  command = "cd palm-server && node index.js"
