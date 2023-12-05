@@ -19,7 +19,7 @@ const client = new TextServiceClient({
 let answer = null;
 let prompt = "write an article about beagles";
 
-app.get('/api', (req, res) => {
+/*app.get('/api', (req, res) => {
   client
     .generateText({
       model: MODEL_NAME,
@@ -34,7 +34,7 @@ app.get('/api', (req, res) => {
       console.error(err.details);
       res.json(err.details);
     });
-});
+});*/
 
 app.post('/api', (req, res) => {
   prompt = req.body.prompt;
