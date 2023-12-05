@@ -2,5 +2,5 @@
   command = "cd palm-server && node index.js"
 
 [build]
-  command = "cd palm-client && npm run build"
+  command = "npm run build --prefix palm-client"
   publish = "palm-client/dist"
