@@ -1,6 +1,6 @@
+[dev]
+  command = "cd palm-server && node index.js"
+
 [build]
   command = "cd palm-client && npm run build"
   publish = "palm-client/dist"
-
-[dev]
-  command = "cd palm-server && node index.js"
