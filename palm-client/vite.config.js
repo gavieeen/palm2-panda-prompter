@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: 'src/main.jsx',
-      external: ['react/jsx-runtime'],
+      external: ['react', 'react/jsx-runtime'],
     },
   },
   server: {
