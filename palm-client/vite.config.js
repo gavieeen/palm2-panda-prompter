@@ -11,6 +11,7 @@ export default defineConfig({
       external: [
         'react',
         'react-dom',
+        'dompurify',
         'react/jsx-runtime',
         '@picocss/pico/css/pico.min.css'
       ],
