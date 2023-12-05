@@ -8,7 +8,12 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: 'src/main.jsx',
-      external: ['react', 'react-dom', 'react/jsx-runtime'],
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        '@picocss/pico/css/pico.min.css'
+      ],
     },
   },
   server: {
