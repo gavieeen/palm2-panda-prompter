@@ -1,7 +1,7 @@
 # PALM2 Chatbot Development with Node.js, React, and Vite
 This repository is the culmination of my journey in creating a dynamic chatbot application, powered by Google's advanced language model, PaLM 2, and leveraging cutting-edge technologies. The full course, titled "PALM2 Chatbot Development," is available on [LinkedIn Learning][lil-course-url].
 
-# DEMO
+# [DEMO](https://www.youtube.com/watch?v=RDH1NLu4ZUE)
 [![Panda Prompter DEMO](https://img.youtube.com/vi/RDH1NLu4ZUE/0.jpg)](https://www.youtube.com/watch?v=RDH1NLu4ZUE)
 
 
